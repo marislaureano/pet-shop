@@ -83,3 +83,32 @@ p {
     color: #000000;
 
 }
+
+
+
+@media screen and (max-width: 500px) {
+
+    .button-header{
+        width: 100px;
+        height: 30px;
+    }
+    
+    .img-logo {
+        width: 250px;
+        height: 200px;
+        margin-left: 70px;
+     }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 20px;
+        width: 500px;
+    }
+ }
